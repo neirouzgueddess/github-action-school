@@ -46,7 +46,7 @@
 #         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/github-action-school .
 #       - name: Push to Dockerhub
 #         run: docker push ${{ secrets.DOCKER_USERNAME }}/github-action-school
- name: CI Pipeline
+name: CI Pipeline
 
 on:
   workflow_dispatch:
